@@ -37,7 +37,6 @@ p{
 }
 
 .banner .content p {
-    background: rgba(0,0,0,0.4);
     padding: 10px;
     font-size: 1em;
     color: #fff;
@@ -80,18 +79,14 @@ header.sticky{
 }
 
 header .logo{
-    color: #fff;
-    font-weight: 700;
-    font-size: 2em;
-    text-decoration: none;
+    content: url(img/logo_white.svg);
+    height: 50px;
+    
 }
 
 header.sticky .logo{
-    color: #111;
-}
-
-header .logo span{
-    color: #ff0157;
+    content: url(img/logo_black.svg);
+    height: 50px;
 }
 
 header .navigation{
@@ -169,7 +164,7 @@ section{
     flex-direction: column;
 }
 
-.menu .content{
+.projects .content{
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -177,20 +172,20 @@ section{
     margin-top: 40px;
 }
 
-.menu .content .box{
+.projects .content .box{
     width: 340px;
     margin: 20px;
     border: 15px solid #fff;
     box-shadow: 0 5px 35px rgba(0,0,0,0.08);
 }
 
-.menu .content .box .imgBox{
+.projects .content .box .imgBox{
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-.menu .content .box .imgBox img{
+.projects .content .box .imgBox img{
     position: absolute;
     top: 0;
     left: 0;
@@ -199,16 +194,16 @@ section{
     object-fit: cover;
 }
 
-.menu .content .box .text{
+.projects .content .box .text{
     padding: 15px 0 5px;
 }
 
-.menu .content .box .text h3{
+.projects .content .box .text h3{
     font-weight: 400;
     color: #111;
 }
 
-.chefs .content{
+.staff .content{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -216,18 +211,18 @@ section{
     margin-top: 40px;
 }
 
-.chefs .content .box{
+.staff .content .box{
     width: 250px;
     margin: 15px;
 }
 
-.chefs .content .box .imgBox{
+.staff .content .box .imgBox{
     position: relative;
     width: 100%;
     height: 300px;
 }
 
-.chefs .content .box .imgBox img{
+.staff .content .box .imgBox img{
     position: absolute;
     top: 0;
     left: 0;
@@ -236,14 +231,19 @@ section{
     object-fit: cover;
 }
 
-.chefs .content .box .text{
+.staff .content .box .text{
     padding: 20px 0 5px;
 }
 
-.chefs .content .box .text h3{
+.staff .content .box .text h3{
     font-weight: 400;
     color: #111;
 }
+
+.staff .content .box .text p{
+    color: #ff0157;
+}
+
 .testimonials{
     background: url('img/bg2_edited.jpg');
     background-size: cover;
@@ -309,12 +309,6 @@ section{
 .contact{
     background: url('img/bg3_edited.jpg');
     background-size: cover;
-}
-
-.contact .title p{
-    font-family: 'Playball', sans-serif;
-    font-size: 1.8em;
-    font-weight: 500;
 }
 
 .contact .content{
