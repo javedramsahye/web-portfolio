@@ -102,7 +102,7 @@ header .navigation li{
 header .navigation li a{
     text-decoration: none;
     color: #fff;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 header.sticky .navigation li a{
@@ -503,7 +503,7 @@ section{
         font-weight: 300;
     }
     
-    .testimonials .content. box{
+    .testimonials .content .box{
         margin: 10px;
         padding: 20px;
     }
