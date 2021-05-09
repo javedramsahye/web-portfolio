@@ -467,6 +467,10 @@ section{
         font-size: 3em;
     }
     
+    .about p{
+        text-align: justify;
+    }
+    
     .row{
         flex-direction: column;
     }
@@ -520,4 +524,14 @@ section{
     .banner .content h2{
         font-size: 2em;
     }
+    
+    header .logo{
+    height: 35px;
+    }
+    
+    header.sticky .logo{
+    height: 35px;
+    }
+    
+    
 }
