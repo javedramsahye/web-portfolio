@@ -515,3 +515,9 @@ section{
     }
     
 }
+
+@media (max-width: 280px){
+    .banner .content h2{
+        font-size: 2em;
+    }
+}
