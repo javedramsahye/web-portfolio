@@ -484,15 +484,15 @@ section{
         margin-top: 20px;
     }
     
-    .menu .content{
+    .projects .content{
         margin-top: 20px;
     }
     
-    .menu .content .box{
+    .projects .content .box{
         margin: 10px;
     }
     
-    .menu .content .box .imgBox{
+    .projects .content .box .imgBox{
         height: 260px;
     }
     
@@ -510,6 +510,7 @@ section{
     .testimonials .content .box{
         margin: 10px;
         padding: 20px;
+        width: 80%;
     }
     
     .contactForm{
